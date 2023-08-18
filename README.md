@@ -37,7 +37,7 @@ npm start
 
 ## Demo 📹
 
-<img src='demo/demo.gif' alt='demo gif'>
+<img src='demo.gif' alt='demo gif'>
 
 
 ## Structure 🌲
