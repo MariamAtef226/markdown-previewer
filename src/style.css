@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-image: url('https://images.ctfassets.net/lzny33ho1g45/beginner-ultimate-guide-markdo-p-img/e08d4cdf239e2e356228fbecb2d27cdd/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760');
+}
+
+header{
+  margin:30px auto;
+  background-color: #ffffff22;
+  text-align: center;
+  color:white;
+  font-weight: bold;;
+}
+header h1{
+  font-family: "Candal", sans-serif;
+  font-size: 5.6em;
+  padding:20px 10px;
+}
+header h4{
+  font-size: 2em;
+  padding-bottom: 20px;;
+}
+textarea{
+  height:500px;
+  background-color: #363636 !important;
+  color:white !important;
+  font-size: 1.3rem !important;
+  border: none !important;
+}
+
+.workspace, .previewer{
+  width:50%;
+  margin: 0 auto;
+  font-size: 1.3rem !important;
+}
+.preview-box{
+  background-color: #010101aa;
+  padding:10px 30px;
+}
+
+@media (max-width:770px){
+  .workspace, .previewer{
+    width:90%
+  }
+
+  header h1{
+    font-size: 2.2em;
+    padding:10px 0;
+
+  }
+  header h4{
+    font-size: 0.81em;
+  }
+  textarea{
+    height:250px;
+    font-size: 1rem !important;
+  }
+}
